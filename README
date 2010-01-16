@@ -1,0 +1,26 @@
+maildrop-log-colorize.rb README
+===============================
+
+Overview
+--------
+
+Maildrop log colorizer.
+
+Usage
+-----
+
+The usual:
+
+    $ tail -f path/to/maildrop.log | maildrop-logcolorize.rb
+
+  or
+
+    $ maildrop-log-colorize.rb path/to/maildrop.log
+
+See Maildrop::LogColorize::CONFIG for color settings.
+
+About the Author
+----------------
+Paul Duncan <pabs@pablotron.org>
+http://pablotron.org/
+
